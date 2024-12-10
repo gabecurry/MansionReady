@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f0f0f0;
+  }
+  
+  h1, h2 {
+    color: #333;
+  }
+  
+  #game-container, #suspects-page, #end-screen {
+    padding: 20px;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .suspect {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    width: 200px;
+    text-align: center;
+    background-color: #fff;
+  }
+  
+  .suspect h4 {
+    margin: 10px 0;
+  }
+  
+  .suspect p {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #ccc;
+  }
+  
+  #hint-text {
+    color: #007bff;
+  }
+  
